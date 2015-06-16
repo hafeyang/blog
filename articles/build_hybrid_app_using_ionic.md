@@ -99,4 +99,4 @@ app关掉时可以通过各平台的数据推送。可以使用 cordova的[Push�
 
 
 
-[gimmick:Disqus](http://hafeyang.github.io/blog/#!articles/build_hybrid_app_using_ionic.md)
+[gimmick:Disqus](hafeyang.disqus.com)
