@@ -4,5 +4,5 @@
 
 
 <!-- set a default theme -->
-[gimmick:theme (inverse: false)](readable)
+[gimmick:theme (inverse: true)](readable)
 

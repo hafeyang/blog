@@ -1,4 +1,4 @@
-About
+文章目录
 =====
 
-This is an MDwiki seed project. Edit the files to adopt to your website or wiki style.
+ * [AboutMe](#!about.md)
