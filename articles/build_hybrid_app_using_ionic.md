@@ -96,3 +96,7 @@ app关掉时可以通过各平台的数据推送。可以使用 cordova的[Push�
   [13]: https://developer.apple.com/library/safari/documentation/AppleApplications/Conceptual/Safari_Developer_Guide/GettingStarted/GettingStarted.html
   [14]: https://crosswalk-project.org/
   [15]: https://github.com/phonegap-build/PushPlugin
+
+
+
+[gimmick:Disqus](build_hybrid_app_using_ionic)
