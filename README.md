@@ -1,8 +1,6 @@
-MDwiki Seed
+又来折腾一个blog
 ===========
 
-### A basic file layout template that you can fork to build your own websites or wikis with MDwiki.
-
-#### See <http://mdwiki.info/> for details and documentation.
-
+没有比这个更简单的blog了。
+大爱markdown
 
