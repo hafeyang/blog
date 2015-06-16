@@ -8,7 +8,7 @@
 ##iOS开发环境搭建
 iOS开发需要安装Xcode，[申请iOS开发者账号][7].
 
-#通用开发环境搭建
+##通用开发环境搭建
 首先需要安装[Node.js][8]，安装完后在命令行输入`node -v` 能看到Node.js版本号即安装成功。使用npm 安装 cordova 和ionic
 
 ```shell
