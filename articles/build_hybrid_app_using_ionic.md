@@ -2,10 +2,10 @@
 
 [ionicframework][1]提供一套非常简洁扁平的控件库，用户快速的构建web app。他使用[cordova/phonegap][2] 构建app。cordova/phonegap为不同的平台提供相同的JavaScript接口。UI封装基于[angular][3]。目前适用于Android4+,iOS7.1+。同时还集成一套图标库[ionicons][4]。他是一个低成本的快速开发跨平台app的不二选择。
 
-#Android开发环境搭建
+##Android开发环境搭建
 先下载Android SDK。官方的SDK下载地址被墙，可以到[androiddevtools.cn][5]下载，ionic支持的API Level为21。创建虚拟机用于开发。虚拟机如果比较慢，可以采用与开发及其相同的架构，比如采用x86，增大内存能缓解。不需要安装很大的IDE，因为业务逻辑代码都是web，可以采用类似[Sublime Text][6]比较轻便的编辑器。
 
-#iOS开发环境搭建
+##iOS开发环境搭建
 iOS开发需要安装Xcode，[申请iOS开发者账号][7].
 
 #通用开发环境搭建
@@ -54,11 +54,11 @@ jarsigner -verify -verbose -certs  CarefWatch-arm.apk
 ```
 iOS下使用Xcode中的Product->Archive工具根据向导一部一部做。插件已经发布的版本可以点击菜单中Window->Orgnizer
 
-#调试web
+##调试web
 通过`ionic serve` 可以开启一个浏览器调试web app。ionic 是基于[sass][10]。如果修改了sass文件，需要起作用可以使用`gulp sass`，也可以直接运行`gulp watch` ，他会自动监听scss文件，及时更新css并刷新浏览器。
 当app部署到设备上时如果需要调试，有以下几种办法：
 
-##使用weinre
+###使用weinre
 [weinre][11]是Web Inspect Remote的简称。可以使用npm安装
 ```shell
 npm -g install weinre
@@ -72,12 +72,12 @@ npm -g install weinre
 ```
 需要注意的是在部署的时候需要去掉该script。
 
-##利用浏览器远程调试功能
+###利用浏览器远程调试功能
 Android可以参考[此处][12]
 iOS可以参考[此处][13]
 Android上如上面文章中提到的需要修改java代码。也可以安装[crosswalk][14]，可以直接用chrome远程调试，当然crosswalk不仅仅有这个功能，后面会详细提到。
 
-#使用数据推送
+##使用数据推送
 app关掉时可以通过各平台的数据推送。可以使用 cordova的[Push插件][15]
 
 
